@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
-  "dev": "concurrently \"nodemon src/server.js\" \"vite\"",
-  "build": "vite build",
-  "start": "node src/server.js"
-},
+    "dev": "concurrently \"nodemon src/server.js\" \"vite\"",
+    "build": "vite build",
+    "start": "node src/server.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/torjohanaleksandersen/fps.git"
