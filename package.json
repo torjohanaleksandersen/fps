@@ -1,0 +1,35 @@
+{
+  "name": "fps",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+  "dev": "concurrently \"nodemon src/server.js\" \"vite\"",
+  "build": "vite build",
+  "start": "node src/server.js"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/torjohanaleksandersen/fps.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/torjohanaleksandersen/fps/issues"
+  },
+  "homepage": "https://github.com/torjohanaleksandersen/fps#readme",
+  "description": "",
+  "dependencies": {
+    "@dimforge/rapier3d": "^0.18.0",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10",
+    "socket.io": "^4.8.1",
+    "socket.io-client": "^4.8.1",
+    "three": "^0.178.0"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.0",
+    "vite": "^7.0.6"
+  }
+}
