@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
+    "postinstall": "chmod +x node_modules/.bin/vite",
     "dev": "concurrently \"nodemon src/server.js\" \"vite\"",
     "build": "vite build",
     "start": "node src/server.js"
