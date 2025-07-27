@@ -2,7 +2,7 @@
   "name": "fullstack-project",
   "version": "1.0.0",
   "scripts": {
-    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "start": "npx concurrently \"npm run server\" \"npm run client\"",
     "server": "node server/index.js",
     "client": "cd public && npm run dev"
   },
